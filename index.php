@@ -2,10 +2,15 @@
 /**
  * simple testing smtp server
  */
-require_once "Mail.php"; //you must have "pear Mail" installed :(
+require_once "Mail.php";  //TODO: Check if Pear exist
+/*
+ * you must have "pear Mail" installed, to install it simply write
+ * sudo pear install Mail Net_SMTP
+ * in terminal
+ */
 //conf
 $from = 'somebody.from@confiq.org';
-$to = 'webmail.com@confiq.org';
+$to = 'box.com@confiq.org';
 $subject = 'test mail from php';
 $body = php_uname().date('r');
 $host = 'test.confiq.org';
