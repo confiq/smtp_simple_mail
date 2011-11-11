@@ -1,7 +1,6 @@
 <?php
 /**
  * simple testing smtp server
- * 
  */
 require_once "Mail.php"; //you must have "pear Mail" installed :(
 //conf
